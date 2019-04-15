@@ -1,0 +1,5 @@
+---
+- hosts: all
+  task:
+  - name: pinging into nodes
+    ping:
